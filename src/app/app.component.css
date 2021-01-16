@@ -4,12 +4,9 @@ p {
     font-size: 40px;  
   }
     
-  /* body {  
+  body {  
     background-color: rgb(212, 153, 153);  
-  } */
-  /* button{
-    background-color: black;
-  } */
+  }
 thead{
-  background-color: black;
+  background-color:black;
 }
