@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <div class="segment">
+            <h1>User Details</h1>
+        </div>
+        <label>
+            <input type="text" placeholder="Enter your name" required #name/>
+        </label>
+        <label>
+            <input type="text" placeholder="Username" required #username/>
+        </label>
+        <label>
+            <input type="text" placeholder="Email Address" required #email/>
+        </label>
+        <button type="reset" class="btn btn-success" (click)="onAddUser(name.value,username.value,email.value)">Add User!</button>
+    </form>
+</body>
+</html>
