@@ -8,14 +8,14 @@ import { User } from '../user.model';
 })
 export class UsersComponent implements OnInit {
 
-   @Output() userAdded=new EventEmitter<{name:string,username:string,email:string}>();
- // @Input() users:User[]=[];
+   @Output() userAdded=new EventEmitter<User>();
 
   constructor() {
    }
 
   ngOnInit(): void {
   }
+  
   onAddUser(name:string,username:string,email:string){
     this.userAdded.emit({
         name,username,email
